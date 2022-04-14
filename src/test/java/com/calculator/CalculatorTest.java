@@ -106,11 +106,11 @@ public class CalculatorTest {
 
     }
 
-    //@Test
+    @Test
     public void powerFalse(){
         assertNotEquals("Power of -1 to -1.5", -1, calculator.power(-1, -1.5), error);
         assertNotEquals("Power of -1 to -1", Double.NaN, calculator.power(-1, -1), error);
-        assertNotEquals("Power of -1 to -0.5 ", Double.NaN, calculator.power(-1, -0.5), error);
+        assertNotEquals("Power of -1 to -0.5 ", -1, calculator.power(-1, -0.5), error);
         assertNotEquals("Power of -1 to 0", -1, calculator.power(-1, 0), error);
         assertNotEquals("Power of -1 to 0.5", -1, calculator.power(-1, 0.5), error);
         assertNotEquals("Power of -1 to 1", 1, calculator.power(-1, 1), error);
