@@ -21,8 +21,14 @@ public class Calculator {
         System.out.println("Computing natural log of " + input + "...");
         return Math.log(input);
     }
+
+    public double power(double input, double exponent) {
+        System.out.println("Computing " + input + " power " + exponent + "...");
+        return Math.pow(input, exponent);
+    }
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
+
     }
 }
