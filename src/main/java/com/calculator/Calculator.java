@@ -16,6 +16,11 @@ public class Calculator {
         }
         return ans;
     }
+
+    public double naturalLog(double input) {
+        System.out.println("Computing natural log of " + input + "...");
+        return Math.log(input);
+    }
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
