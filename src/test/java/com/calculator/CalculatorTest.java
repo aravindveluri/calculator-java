@@ -60,4 +60,93 @@ public class CalculatorTest {
         assertNotEquals("Natural Log of a decimal number", 1.43507, calculator.naturalLog(4.2), error);
         assertNotEquals("Natural Log of e", 1.00001, calculator.naturalLog(Math.E), error);
     }
+
+    @Test
+    public void powerTrue(){
+
+        assertEquals("Power of -1 to -1.5", Double.NaN, calculator.power(-1, -1.5), error);
+        assertEquals("Power of -1 to -1", -1, calculator.power(-1, -1), error);
+        assertEquals("Power of -1 to -0.5 ", Double.NaN, calculator.power(-1, -0.5), error);
+        assertEquals("Power of -1 to 0", 1, calculator.power(-1, 0), error);
+        assertEquals("Power of -1 to 0.5", Double.NaN, calculator.power(-1, 0.5), error);
+        assertEquals("Power of -1 to 1", -1, calculator.power(-1, 1), error);
+        assertEquals("Power of -1 to 1.5", Double.NaN, calculator.power(-1, 1.5), error);
+
+        assertEquals("Power of 0 to -1.5", Double.POSITIVE_INFINITY, calculator.power(0, -1.5), error);
+        assertEquals("Power of 0 to -1", Double.POSITIVE_INFINITY, calculator.power(0, -1), error);
+        assertEquals("Power of 0 to -0.5 ", Double.POSITIVE_INFINITY, calculator.power(0, -0.5), error);
+        assertEquals("Power of 0 to 0", 1, calculator.power(0, 0), error);
+        assertEquals("Power of 0 to 0.5", 0, calculator.power(0, 0.5), error);
+        assertEquals("Power of 0 to 1", 0, calculator.power(0, 1), error);
+        assertEquals("Power of 0 to 1.5", 0, calculator.power(0, 1.5), error);
+
+        assertEquals("Power of 0.5 to -1.5", 2.82842, calculator.power(0.5, -1.5), error);
+        assertEquals("Power of 0.5 to -1", 2, calculator.power(0.5, -1), error);
+        assertEquals("Power of 0.5 to -0.5 ", 1.41421, calculator.power(0.5, -0.5), error);
+        assertEquals("Power of 0.5 to 0", 1, calculator.power(0.5, 0), error);
+        assertEquals("Power of 0.5 to 0.5", 0.70710, calculator.power(0.5, 0.5), error);
+        assertEquals("Power of 0.5 to 1", 0.5, calculator.power(0.5, 1), error);
+        assertEquals("Power of 0.5 to 1.5", 0.35355, calculator.power(0.5, 1.5), error);
+
+        assertEquals("Power of 1 to -1.5", 1, calculator.power(1, -1.5), error);
+        assertEquals("Power of 1 to -1", 1, calculator.power(1, -1), error);
+        assertEquals("Power of 1 to -0.5 ", 1, calculator.power(1, -0.5), error);
+        assertEquals("Power of 1 to 0", 1, calculator.power(1, 0), error);
+        assertEquals("Power of 1 to 0.5", 1, calculator.power(1, 0.5), error);
+        assertEquals("Power of 1 to 1", 1, calculator.power(1, 1), error);
+        assertEquals("Power of 1 to 1.5", 1, calculator.power(1, 1.5), error);
+
+        assertEquals("Power of 1.5 to -1.5", 0.54433, calculator.power(1.5, -1.5), error);
+        assertEquals("Power of 1.5 to -1", 0.66666, calculator.power(1.5, -1), error);
+        assertEquals("Power of 1.5 to -0.5 ", 0.81649, calculator.power(1.5, -0.5), error);
+        assertEquals("Power of 1.5 to 0", 1, calculator.power(1.5, 0), error);
+        assertEquals("Power of 1.5 to 0.5", 1.22474, calculator.power(1.5, 0.5), error);
+        assertEquals("Power of 1.5 to 1", 1.5, calculator.power(1.5, 1), error);
+        assertEquals("Power of 1.5 to 1.5", 1.83711, calculator.power(1.5, 1.5), error);
+
+    }
+
+    //@Test
+    public void powerFalse(){
+        assertNotEquals("Power of -1 to -1.5", -1, calculator.power(-1, -1.5), error);
+        assertNotEquals("Power of -1 to -1", Double.NaN, calculator.power(-1, -1), error);
+        assertNotEquals("Power of -1 to -0.5 ", Double.NaN, calculator.power(-1, -0.5), error);
+        assertNotEquals("Power of -1 to 0", -1, calculator.power(-1, 0), error);
+        assertNotEquals("Power of -1 to 0.5", -1, calculator.power(-1, 0.5), error);
+        assertNotEquals("Power of -1 to 1", 1, calculator.power(-1, 1), error);
+        assertNotEquals("Power of -1 to 1.5", -1, calculator.power(-1, 1.5), error);
+
+        assertNotEquals("Power of 0 to -1.5", 0, calculator.power(0, -1.5), error);
+        assertNotEquals("Power of 0 to -1", 0, calculator.power(0, -1), error);
+        assertNotEquals("Power of 0 to -0.5 ", 0, calculator.power(0, -0.5), error);
+        assertNotEquals("Power of 0 to 0", 0, calculator.power(0, 0), error);
+        assertNotEquals("Power of 0 to 0.5", 1, calculator.power(0, 0.5), error);
+        assertNotEquals("Power of 0 to 1", 1, calculator.power(0, 1), error);
+        assertNotEquals("Power of 0 to 1.5", 1, calculator.power(0, 1.5), error);
+
+        assertNotEquals("Power of 0.5 to -1.5", 2.82841, calculator.power(0.5, -1.5), error);
+        assertNotEquals("Power of 0.5 to -1", 0.5, calculator.power(0.5, -1), error);
+        assertNotEquals("Power of 0.5 to -0.5 ", 1.41420, calculator.power(0.5, -0.5), error);
+        assertNotEquals("Power of 0.5 to 0", 0.5, calculator.power(0.5, 0), error);
+        assertNotEquals("Power of 0.5 to 0.5", 0.70709, calculator.power(0.5, 0.5), error);
+        assertNotEquals("Power of 0.5 to 1", 1, calculator.power(0.5, 1), error);
+        assertNotEquals("Power of 0.5 to 1.5", 0.35354, calculator.power(0.5, 1.5), error);
+
+        assertNotEquals("Power of 1 to -1.5", 0, calculator.power(1, -1.5), error);
+        assertNotEquals("Power of 1 to -1", 1.0001, calculator.power(1, -1), error);
+        assertNotEquals("Power of 1 to -0.5 ", 0, calculator.power(1, -0.5), error);
+        assertNotEquals("Power of 1 to 0", 0, calculator.power(1, 0), error);
+        assertNotEquals("Power of 1 to 0.5", 0.5, calculator.power(1, 0.5), error);
+        assertNotEquals("Power of 1 to 1", 1.5, calculator.power(1, 1), error);
+        assertNotEquals("Power of 1 to 1.5", 1.5, calculator.power(1, 1.5), error);
+
+        assertNotEquals("Power of 1.5 to -1.5", 0.54432, calculator.power(1.5, -1.5), error);
+        assertNotEquals("Power of 1.5 to -1", 0.66665, calculator.power(1.5, -1), error);
+        assertNotEquals("Power of 1.5 to -0.5 ", 0.81648, calculator.power(1.5, -0.5), error);
+        assertNotEquals("Power of 1.5 to 0", 1.5, calculator.power(1.5, 0), error);
+        assertNotEquals("Power of 1.5 to 0.5", 1.22473, calculator.power(1.5, 0.5), error);
+        assertNotEquals("Power of 1.5 to 1", 1, calculator.power(1.5, 1), error);
+        assertNotEquals("Power of 1.5 to 1.5", 1.83710, calculator.power(1.5, 1.5), error);
+    }
+
 }
