@@ -42,4 +42,22 @@ public class CalculatorTest {
         assertNotNull("Factorial of 5", calculator.factorial(5));
         assertNotEquals("Factorial of 20", 2.43290200817665E18, calculator.factorial(20), error);
     }
+
+    @Test
+    public void naturalLogTrue(){
+        assertEquals("Natural Log of 0", Double.NEGATIVE_INFINITY, calculator.naturalLog(0), error);
+        assertEquals("Natural Log of a negative number", Double.NaN, calculator.naturalLog(-1), error);
+        assertEquals("Natural Log of a fraction", -9.21034, calculator.naturalLog(1e-4), error);
+        assertEquals("Natural Log of a decimal number", 1.43508, calculator.naturalLog(4.2), error);
+        assertEquals("Natural Log of e", 1, calculator.naturalLog(Math.E), error);
+    }
+
+    @Test
+    public void naturalLogFalse(){
+        assertNotEquals("Natural Log of 0", 0, calculator.naturalLog(0), error);
+        assertNotEquals("Natural Log of a negative number", Double.NEGATIVE_INFINITY, calculator.naturalLog(-1), error);
+        assertNotEquals("Natural Log of a fraction", -9.21033, calculator.naturalLog(1e-4), error);
+        assertNotEquals("Natural Log of a decimal number", 1.43507, calculator.naturalLog(4.2), error);
+        assertNotEquals("Natural Log of e", 1.00001, calculator.naturalLog(Math.E), error);
+    }
 }
