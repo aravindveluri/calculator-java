@@ -1,0 +1,9 @@
+---
+- name: Pull the docker image of scientific calculator
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Pull the calculator docker image from docker hub
+      docker_image:
+        name: aravindv178/calculator-mini-project
+        source: pull
