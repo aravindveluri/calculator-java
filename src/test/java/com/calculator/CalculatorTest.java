@@ -30,7 +30,7 @@ public class CalculatorTest {
         assertEquals("Factorial of 0", 1, calculator.factorial(0), error);
         assertEquals("Factorial of 1", 1, calculator.factorial(1), error);
         assertEquals("Factorial of 2", 2, calculator.factorial(2), error);
-        assertNull("Factorial of negative number", calculator.factorial(-1));
+        assertEquals("Factorial of negative number", Double.NaN, calculator.factorial(-1), error);
         assertEquals("Factorial of 20", 2.43290200817664E18, calculator.factorial(20), error);
     }
 
