@@ -2,6 +2,8 @@
 - name: Pull the docker image of scientific calculator
   hosts: localhost
   connection: local
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: Pull the calculator docker image from docker hub
       docker_image:
