@@ -1,0 +1,172 @@
+16/Apr/2022:18:32:26 026 [main] [INFO] com.calculator.Calculator Computing natural log of 0.0
+16/Apr/2022:18:32:26 028 [main] [INFO] com.calculator.Calculator Computing natural log of -1.0
+16/Apr/2022:18:32:26 029 [main] [INFO] com.calculator.Calculator Computing natural log of 1.0E-4
+16/Apr/2022:18:32:26 029 [main] [INFO] com.calculator.Calculator Computing natural log of 4.2
+16/Apr/2022:18:32:26 029 [main] [INFO] com.calculator.Calculator Computing natural log of 2.718281828459045
+16/Apr/2022:18:32:26 030 [main] [INFO] com.calculator.Calculator Computing square root of 0.0
+16/Apr/2022:18:32:26 030 [main] [INFO] com.calculator.Calculator Computing square root of 4.0
+16/Apr/2022:18:32:26 030 [main] [INFO] com.calculator.Calculator Computing square root of 5.0
+16/Apr/2022:18:32:26 030 [main] [INFO] com.calculator.Calculator Computing square root of 2.23606
+16/Apr/2022:18:32:26 030 [main] [INFO] com.calculator.Calculator Computing square root of -2.0
+16/Apr/2022:18:32:26 030 [main] [INFO] com.calculator.Calculator Computing square root of 0.0
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing square root of 4.0
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing square root of 5.0
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing square root of 2.23606
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing square root of -2.0
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing -1.0 power -1.5
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing -1.0 power -1.0
+16/Apr/2022:18:32:26 031 [main] [INFO] com.calculator.Calculator Computing -1.0 power -0.5
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing -1.0 power 0.0
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing -1.0 power 0.5
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing -1.0 power 1.0
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing -1.0 power 1.5
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power -1.5
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power -1.0
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power -0.5
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power 0.0
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power 0.5
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power 1.0
+16/Apr/2022:18:32:26 032 [main] [INFO] com.calculator.Calculator Computing 0.0 power 1.5
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power -1.5
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power -1.0
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power -0.5
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power 0.0
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power 0.5
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power 1.0
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 0.5 power 1.5
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 1.0 power -1.5
+16/Apr/2022:18:32:26 033 [main] [INFO] com.calculator.Calculator Computing 1.0 power -1.0
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.0 power -0.5
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.0 power 0.0
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.0 power 0.5
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.0 power 1.0
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.0 power 1.5
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.5 power -1.5
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.5 power -1.0
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.5 power -0.5
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.5 power 0.0
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.5 power 0.5
+16/Apr/2022:18:32:26 034 [main] [INFO] com.calculator.Calculator Computing 1.5 power 1.0
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing 1.5 power 1.5
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 0
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 1
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 2
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of -1
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 20
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 0
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 1
+16/Apr/2022:18:32:26 035 [main] [INFO] com.calculator.Calculator Computing factorial of 5
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing factorial of 5
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing factorial of 20
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power -1.5
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power -1.0
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power -0.5
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power 0.0
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power 0.5
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power 1.0
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing -1.0 power 1.5
+16/Apr/2022:18:32:26 036 [main] [INFO] com.calculator.Calculator Computing 0.0 power -1.5
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.0 power -1.0
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.0 power -0.5
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.0 power 0.0
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.0 power 0.5
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.0 power 1.0
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.0 power 1.5
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.5 power -1.5
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.5 power -1.0
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.5 power -0.5
+16/Apr/2022:18:32:26 037 [main] [INFO] com.calculator.Calculator Computing 0.5 power 0.0
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 0.5 power 0.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 0.5 power 1.0
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 0.5 power 1.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power -1.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power -1.0
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power -0.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power 0.0
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power 0.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power 1.0
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.0 power 1.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.5 power -1.5
+16/Apr/2022:18:32:26 038 [main] [INFO] com.calculator.Calculator Computing 1.5 power -1.0
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing 1.5 power -0.5
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing 1.5 power 0.0
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing 1.5 power 0.5
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing 1.5 power 1.0
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing 1.5 power 1.5
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing natural log of 0.0
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing natural log of -1.0
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing natural log of 1.0E-4
+16/Apr/2022:18:32:26 039 [main] [INFO] com.calculator.Calculator Computing natural log of 4.2
+16/Apr/2022:18:32:26 040 [main] [INFO] com.calculator.Calculator Computing natural log of 2.718281828459045
+16/Apr/2022:18:32:30 985 [main] [INFO] com.calculator.Calculator Initiating Calculator
+16/Apr/2022:18:32:30 988 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:32:47 620 [main] [INFO] com.calculator.Calculator User input of 1
+16/Apr/2022:18:32:47 620 [main] [INFO] com.calculator.Calculator Option 1
+16/Apr/2022:18:32:48 930 [main] [INFO] com.calculator.Calculator User input of 100.0
+16/Apr/2022:18:32:48 931 [main] [INFO] com.calculator.Calculator Computing square root of 100.0
+16/Apr/2022:18:32:48 931 [main] [INFO] com.calculator.Calculator Operation result 10.0
+16/Apr/2022:18:32:48 931 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:32:50 824 [main] [INFO] com.calculator.Calculator User input of 4
+16/Apr/2022:18:32:50 824 [main] [INFO] com.calculator.Calculator Option 4
+16/Apr/2022:18:32:54 736 [main] [INFO] com.calculator.Calculator User input of 220.0
+16/Apr/2022:18:32:54 737 [main] [INFO] com.calculator.Calculator User input of 0.5
+16/Apr/2022:18:32:54 737 [main] [INFO] com.calculator.Calculator Computing 220.0 power 0.5
+16/Apr/2022:18:32:54 738 [main] [INFO] com.calculator.Calculator Operation result 14.832396974191326
+16/Apr/2022:18:32:54 739 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:32:57 814 [main] [INFO] com.calculator.Calculator User input of 1
+16/Apr/2022:18:32:57 814 [main] [INFO] com.calculator.Calculator Option 1
+16/Apr/2022:18:33:00 653 [main] [INFO] com.calculator.Calculator User input of 4.0
+16/Apr/2022:18:33:00 653 [main] [INFO] com.calculator.Calculator Computing square root of 4.0
+16/Apr/2022:18:33:00 654 [main] [INFO] com.calculator.Calculator Operation result 2.0
+16/Apr/2022:18:33:00 654 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:02 276 [main] [INFO] com.calculator.Calculator User input of 1
+16/Apr/2022:18:33:02 276 [main] [INFO] com.calculator.Calculator Option 1
+16/Apr/2022:18:33:04 862 [main] [INFO] com.calculator.Calculator User input of 10000.0
+16/Apr/2022:18:33:04 862 [main] [INFO] com.calculator.Calculator Computing square root of 10000.0
+16/Apr/2022:18:33:04 863 [main] [INFO] com.calculator.Calculator Operation result 100.0
+16/Apr/2022:18:33:04 863 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:08 367 [main] [INFO] com.calculator.Calculator User input of 2
+16/Apr/2022:18:33:08 368 [main] [INFO] com.calculator.Calculator Option 2
+16/Apr/2022:18:33:09 592 [main] [INFO] com.calculator.Calculator User input of 6.0
+16/Apr/2022:18:33:09 592 [main] [INFO] com.calculator.Calculator Computing factorial of 6
+16/Apr/2022:18:33:09 593 [main] [INFO] com.calculator.Calculator Operation result 720.0
+16/Apr/2022:18:33:09 593 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:13 702 [main] [INFO] com.calculator.Calculator User input of 3
+16/Apr/2022:18:33:13 703 [main] [INFO] com.calculator.Calculator Option 3
+16/Apr/2022:18:33:16 407 [main] [INFO] com.calculator.Calculator User input of 2.713
+16/Apr/2022:18:33:16 408 [main] [INFO] com.calculator.Calculator Computing natural log of 2.713
+16/Apr/2022:18:33:16 408 [main] [INFO] com.calculator.Calculator Operation result 0.9980550336767947
+16/Apr/2022:18:33:16 409 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:24 489 [main] [INFO] com.calculator.Calculator User input of 3
+16/Apr/2022:18:33:24 489 [main] [INFO] com.calculator.Calculator Option 3
+16/Apr/2022:18:33:29 055 [main] [INFO] com.calculator.Calculator User input of 10.0
+16/Apr/2022:18:33:29 055 [main] [INFO] com.calculator.Calculator Computing natural log of 10.0
+16/Apr/2022:18:33:29 056 [main] [INFO] com.calculator.Calculator Operation result 2.302585092994046
+16/Apr/2022:18:33:29 056 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:33 603 [main] [INFO] com.calculator.Calculator User input of 2
+16/Apr/2022:18:33:33 604 [main] [INFO] com.calculator.Calculator Option 2
+16/Apr/2022:18:33:34 697 [main] [INFO] com.calculator.Calculator User input of 4.0
+16/Apr/2022:18:33:34 698 [main] [INFO] com.calculator.Calculator Computing factorial of 4
+16/Apr/2022:18:33:34 699 [main] [INFO] com.calculator.Calculator Operation result 24.0
+16/Apr/2022:18:33:34 699 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:36 566 [main] [INFO] com.calculator.Calculator User input of 1
+16/Apr/2022:18:33:36 567 [main] [INFO] com.calculator.Calculator Option 1
+16/Apr/2022:18:33:38 641 [main] [INFO] com.calculator.Calculator User input of -0.1
+16/Apr/2022:18:33:38 641 [main] [INFO] com.calculator.Calculator Computing square root of -0.1
+16/Apr/2022:18:33:38 642 [main] [INFO] com.calculator.Calculator Operation result NaN
+16/Apr/2022:18:33:38 642 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:33:43 718 [main] [INFO] com.calculator.Calculator User input of 1
+16/Apr/2022:18:33:43 719 [main] [INFO] com.calculator.Calculator Option 1
+16/Apr/2022:18:33:59 721 [main] [INFO] com.calculator.Calculator User input of 0.16
+16/Apr/2022:18:33:59 721 [main] [INFO] com.calculator.Calculator Computing square root of 0.16
+16/Apr/2022:18:33:59 722 [main] [INFO] com.calculator.Calculator Operation result 0.4
+16/Apr/2022:18:33:59 723 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:34:04 363 [main] [INFO] com.calculator.Calculator User input of 4
+16/Apr/2022:18:34:04 364 [main] [INFO] com.calculator.Calculator Option 4
+16/Apr/2022:18:34:07 658 [main] [INFO] com.calculator.Calculator User input of 0.5
+16/Apr/2022:18:34:07 658 [main] [INFO] com.calculator.Calculator User input of 100.0
+16/Apr/2022:18:34:07 659 [main] [INFO] com.calculator.Calculator Computing 0.5 power 100.0
+16/Apr/2022:18:34:07 659 [main] [INFO] com.calculator.Calculator Operation result 7.888609052210118E-31
+16/Apr/2022:18:34:07 660 [main] [INFO] com.calculator.Calculator Displaying menu
+16/Apr/2022:18:34:14 091 [main] [INFO] com.calculator.Calculator Illegal Input
+16/Apr/2022:18:34:14 091 [main] [INFO] com.calculator.Calculator Exited
