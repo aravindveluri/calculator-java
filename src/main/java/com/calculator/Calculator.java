@@ -23,19 +23,16 @@ public class Calculator {
         }
         return ans;
     }
-
     public double naturalLog(double input) {
         calculatorLogger.info("Computing natural log of " + input);
         System.out.println("Computing natural log of " + input + "...");
         return Math.log(input);
     }
-
     public double power(double input, double exponent) {
         calculatorLogger.info("Computing " + input + " power " + exponent);
         System.out.println("Computing " + input + " power " + exponent + "...");
         return Math.pow(input, exponent);
     }
-
     private void displayMenu() {
         calculatorLogger.info("Displaying menu");
         System.out.println("1. Square Root (x)");
